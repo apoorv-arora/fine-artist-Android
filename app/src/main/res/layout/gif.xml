@@ -1,0 +1,24 @@
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:components="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="4dp"
+    app:cardElevation="4dp"
+    android:layout_margin="@dimen/height12">
+
+    <FrameLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:components="http://schemas.android.com/apk/res-auto">
+
+        <in.fine.artist.home.utils.gif.GifMovieView
+            android:layout_margin="@dimen/height12"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            components:gif="@drawable/loader"/>
+
+    </FrameLayout>
+
+</android.support.v7.widget.CardView>

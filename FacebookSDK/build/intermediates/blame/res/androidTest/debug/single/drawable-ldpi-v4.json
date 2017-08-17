@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/apoorvarora/Documents/OProjects/shiftnow/shift-now-android-consumer/FacebookSDK/build/intermediates/res/merged/androidTest/debug/drawable-ldpi-v4/com_facebook_close.png",
+        "source": "/Users/apoorvarora/Documents/OProjects/shiftnow/shift-now-android-consumer/FacebookSDK/build/intermediates/bundles/debug/res/drawable-ldpi-v4/com_facebook_close.png"
+    },
+    {
+        "merged": "/Users/apoorvarora/Documents/Zapplon/Android/FacebookSDK/build/intermediates/res/merged/androidTest/debug/drawable-ldpi-v4/com_facebook_close.png",
+        "source": "/Users/apoorvarora/Documents/Zapplon/Android/FacebookSDK/build/intermediates/bundles/debug/res/drawable-ldpi-v4/com_facebook_close.png"
+    },
+    {
+        "merged": "/Users/apoorvarora/Documents/OProjects/shiftnow/home/FacebookSDK/build/intermediates/res/merged/androidTest/debug/drawable-ldpi-v4/com_facebook_close.png",
+        "source": "/Users/apoorvarora/Documents/OProjects/shiftnow/home/FacebookSDK/build/intermediates/bundles/debug/res/drawable-ldpi-v4/com_facebook_close.png"
+    }
+]

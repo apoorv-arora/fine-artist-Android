@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="@dimen/height30"
+    android:paddingBottom="@dimen/height30"
+    android:background="@drawable/white_corner_background"
+    android:orientation="vertical">
+
+    <in.fine.artist.home.utils.views.IconView
+        android:id="@+id/icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/source_green"
+        android:text="@string/ic_circular_tick"
+        android:textSize="@dimen/drawer_iconview_size_big"/>
+
+    <in.fine.artist.home.utils.views.TextViewMedium
+        android:id="@+id/title"
+        android:textSize="@dimen/size16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/black"
+        android:alpha="0.69"
+        android:layout_marginTop="@dimen/size10"
+        android:gravity="center_horizontal"/>
+
+    <in.fine.artist.home.utils.views.TextViewRegular
+        android:padding="@dimen/size10"
+        android:id="@+id/description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@color/locality_text"
+        android:alpha="0.69"
+        android:layout_marginTop="@dimen/size4"
+        android:textSize="@dimen/size16"
+        android:gravity="center"/>
+
+</LinearLayout>

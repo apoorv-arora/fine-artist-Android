@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/layout_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <!-- header layout -->
+            <RelativeLayout
+                android:id="@+id/headerLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="@dimen/height150"
+                android:background="@color/profile_background_color">
+
+                <FrameLayout
+                    android:id="@+id/edit_image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true" >
+
+                    <in.fine.artist.home.utils.views.VCircularImageView
+                        android:id="@+id/userImage"
+                        android:layout_width="@dimen/height90"
+                        android:layout_height="@dimen/height90"
+                        android:scaleType="centerCrop"
+                        android:background="@drawable/ic_user_black"
+                        app:border_width="@dimen/height1"
+                        app:border_color="@color/transparent1"/>
+
+                </FrameLayout>
+            </RelativeLayout>
+
+            <!-- name layout -->
+            <LinearLayout
+                android:id="@+id/phone_container"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/size48"
+                android:background="@color/white"
+                android:clickable="false"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingBottom="@dimen/size10"
+                android:paddingLeft="@dimen/height18"
+                android:paddingTop="@dimen/size10">
+
+                <in.fine.artist.home.utils.views.EditTextRegular
+                    android:id="@+id/phone"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/height2"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:imeOptions="actionDone"
+                    android:scrollHorizontally="true"
+                    android:imeActionLabel="@string/done"
+                    android:enabled="false"
+                    android:inputType="number"
+                    android:maxLines="1"
+                    android:hint="@string/enter_phone_number"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/size16" />
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <in.fine.artist.home.utils.views.IconView
+                        android:id="@+id/edit_phone"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="@string/ic_edit"
+                        app:elevation="@dimen/height6"
+                        android:background="@drawable/whitebuttonfeedback"
+                        android:clickable="true"
+                        android:paddingLeft="@dimen/size10"
+                        android:paddingRight="@dimen/size10"
+                        android:gravity="center"
+                        android:textColor="@color/account_icon_color"
+                        android:textSize="@dimen/size18" />
+
+                    <ProgressBar
+                        android:id="@+id/progressBar"
+                        style="?android:attr/progressBarStyleSmallInverse"
+                        android:layout_width="wrap_content"
+                        android:paddingLeft="@dimen/size10"
+                        android:paddingRight="@dimen/size10"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:indeterminateTint="@color/zhl_darkest"
+                        android:visibility="gone" />
+
+                </FrameLayout>
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/user_phone_separator"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:alpha="0.6"
+                android:background="@color/shade_gray" />
+
+            <!-- change language layout -->
+            <LinearLayout
+                android:id="@+id/name_container"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/size48"
+                android:clickable="false"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingBottom="@dimen/size10"
+                android:paddingLeft="@dimen/height18"
+                android:paddingTop="@dimen/size10">
+
+                <in.fine.artist.home.utils.views.TextViewRegular
+                    android:id="@+id/name"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/height2"
+                    android:layout_weight="5"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/zhl_darkest"
+                    android:textSize="@dimen/size16" />
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/phone_separator_container"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:alpha="0.6"
+                android:background="@color/shade_gray" />
+
+            <View
+                android:id="@+id/middle_separator"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/size25"
+                android:alpha="0.6"
+                android:background="@color/profile_background_color" />
+
+            <View
+                android:id="@+id/address_separator"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:alpha="0.6"
+                android:background="@color/shade_gray" />
+
+            <!-- change language layout -->
+            <LinearLayout
+                android:id="@+id/address_layout"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/size48"
+                android:background="@drawable/whitebuttonfeedback"
+                android:clickable="true"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingBottom="@dimen/size10"
+                android:paddingLeft="@dimen/height18"
+                android:paddingTop="@dimen/size10">
+
+                <in.fine.artist.home.utils.views.IconView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/ic_multilingual"
+                    android:textColor="@color/account_icon_color"
+                    android:textSize="@dimen/size16" />
+
+                <in.fine.artist.home.utils.views.TextViewRegular
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/height2"
+                    android:layout_weight="5"
+                    android:gravity="center_vertical"
+                    android:text="@string/change_language"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/size16" />
+            </LinearLayout>
+
+            <View
+                android:id="@+id/logout_separator"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:alpha="0.6"
+                android:background="@color/shade_gray" />
+
+            <!-- logout layout -->
+            <LinearLayout
+                android:id="@+id/logoutLayout"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/size48"
+                android:background="@drawable/whitebuttonfeedback"
+                android:clickable="true"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingBottom="@dimen/size10"
+                android:paddingLeft="@dimen/height18"
+                android:paddingTop="@dimen/size10">
+
+                <in.fine.artist.home.utils.views.IconView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/ic_logout"
+                    android:textColor="@color/account_icon_color"
+                    android:textSize="@dimen/size16" />
+
+                <in.fine.artist.home.utils.views.TextViewRegular
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/height2"
+                    android:layout_weight="5"
+                    android:gravity="center_vertical"
+                    android:text="@string/logout_string"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/size16" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:alpha="0.6"
+                android:background="@color/shade_gray" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <in.fine.artist.home.utils.views.TextViewMedium
+                    android:id="@+id/termsAndConditions"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:clickable="true"
+                    android:padding="@dimen/height18"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/tnc"
+                    android:textColor="@color/gradient_start"
+                    android:textSize="@dimen/size14" />
+
+                <in.fine.artist.home.utils.views.TextViewMedium
+                    android:id="@+id/tv_app_version"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:padding="@dimen/size10"
+                    android:text="-"
+                    android:textColor="@color/black_trans_thirty"
+                    android:textSize="@dimen/size12" />
+
+                <in.fine.artist.home.utils.views.TextViewMedium
+                    android:id="@+id/aboutUs"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:clickable="true"
+                    android:gravity="right|center_vertical"
+                    android:padding="@dimen/height18"
+                    android:text="@string/about_us"
+                    android:textColor="@color/gradient_start"
+                    android:textSize="@dimen/size14" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/direct_call_container"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/height48"
+                android:background="@drawable/shape_blue_feedback"
+                android:paddingLeft="@dimen/size10"
+                android:paddingRight="@dimen/size10"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginBottom="@dimen/height20"
+                android:clickable="true"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/size5">
+
+                <in.fine.artist.home.utils.views.IconView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ic_call"
+                    android:textColor="@color/whitecolorfeedback"
+                    android:paddingLeft="@dimen/size5"
+                    android:textSize="@dimen/size14" />
+
+                <in.fine.artist.home.utils.views.TextViewMedium
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/whitecolorfeedback"
+                    android:text="@string/help"
+                    android:textAllCaps="true"
+                    android:paddingLeft="@dimen/size5"
+                    android:paddingRight="@dimen/size5"
+                    android:textSize="@dimen/size14"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height48"
+        android:background="@color/colorPrimary">
+
+        <in.fine.artist.home.utils.views.IconView
+            android:id="@+id/back_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="@color/white"
+            android:text="@string/ic_back"
+            android:layout_alignParentLeft="true"
+            android:paddingLeft="@dimen/size16"
+            android:paddingRight="@dimen/size16"
+            android:background="@drawable/tab_feedback"
+            android:gravity="center"
+            android:clickable="true"
+            android:textSize="@dimen/size20"/>
+
+        <in.fine.artist.home.utils.views.IconView
+            android:id="@+id/search_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="@color/white"
+            android:text="@string/ic_search"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/size10"
+            android:background="@drawable/tab_feedback"
+            android:paddingLeft="@dimen/size16"
+            android:paddingRight="@dimen/size16"
+            android:gravity="center"
+            android:textSize="@dimen/size20"/>
+
+        <in.fine.artist.home.utils.views.EditTextRegular
+            android:id="@+id/search_field"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toLeftOf="@id/search_icon"
+            android:layout_toRightOf="@id/back_icon"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:hint="@string/start_typing"
+            android:padding="@dimen/size10"
+            android:textColorHint="@color/zhl_darker"
+            android:background="@null"
+            android:visibility="gone"
+            android:gravity="left|center_vertical"
+            android:backgroundTint="@color/white"
+            android:textSize="@dimen/size14"
+            android:textColor="@color/white"/>
+
+        <FrameLayout
+            android:id="@+id/clearFilter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_toRightOf="@id/back_icon"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/tab_feedback"
+            android:orientation="horizontal">
+
+            <in.fine.artist.home.utils.views.TextViewMedium
+                android:id="@+id/filtername"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end|center_vertical"
+                android:background="@drawable/rounded_white_bg"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:paddingBottom="@dimen/height6"
+                android:paddingLeft="@dimen/height12"
+                android:paddingRight="@dimen/height26"
+                android:paddingTop="@dimen/height6"
+                android:scrollHorizontally="true"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:textSize="@dimen/size12" />
+
+            <in.fine.artist.home.utils.views.IconView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end|center_vertical"
+                android:layout_marginEnd="@dimen/height8"
+                android:layout_marginRight="@dimen/height8"
+                android:text="@string/ic_cross"
+                android:textColor="@color/white"
+                android:textSize="@dimen/size11" />
+        </FrameLayout>
+
+
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/search_result_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <in.fine.artist.home.utils.views.TextViewRegular
+                android:id="@+id/course_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/size14"
+                android:padding="@dimen/size10"
+                android:textColor="@color/black_trans_thirty"
+                android:text="@string/categories"/>
+
+            <GridView
+                android:id="@+id/gridview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:columnWidth="90dp"
+                android:numColumns="2"
+                android:verticalSpacing="10dp"
+                android:horizontalSpacing="10dp"
+                android:padding="@dimen/size10"
+                android:stretchMode="columnWidth"
+                android:gravity="center"
+                />
+
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+</LinearLayout>

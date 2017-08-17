@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Text colors -->
+    <color name="textColorPrimary">#2b4564</color>
+    <color name="textColorSecondary">#1f3a5b</color>
+    <color name="black">#000000</color>
+
+    <!-- Transparent colors -->
+
+    <!-- Default colors -->
+    <color name="white">#ffffff</color>
+    <color name="zhl_dark">#e4e4e4</color>
+    <color name="zhl_darker">#cbcbcb</color>
+    <color name="zhl_darkest">#919191</color>
+    <color name="transparent1">#00000000</color>
+    <color name="transparent_super_white">#66ffffff</color>
+
+    <!-- Button colors -->
+    <color name="blueButtonColor">#59beee</color>
+    <color name="blueButton_pressed">#07b2f0</color>
+
+    <color name="suggested_destination_background">#797979</color>
+
+    <!-- Shades of gray (not fifty yet;) -->
+    <color name="gray_006">#d8d8d8</color>
+
+    <!-- booking colors-->
+    <color name="shade_gray">#e2e2e2</color>
+    <color name="source_green">#188d4c</color>
+    <color name="destination_red">#d0011b</color>
+    <color name="city_text">#484848</color>
+    <color name="locality_text">#919191</color>
+    <color name="truck_icon_color">#0e5171</color>
+    <color name="background_color">#f2f2f2</color>
+
+    <color name="text_color">#303030</color>
+
+
+    <!-- Splash Colors -->
+
+    <color name="placeholder_color">#797979</color>
+
+    <color name="google_background_pressed">#c74231</color>
+    <color name="google_background">#dd4b39</color>
+    <color name="textGrayColor">#929292</color>
+    <color name="black_trans_ten">#1A000000</color>
+
+    <!-- App colors -->
+    <color name="colorPrimary">#418dd9</color>
+    <color name="colorPrimaryDark">#509be6</color>
+    <color name="colorAccent">#428cd6</color>
+    <color name="gray2">#ccd1d9</color>
+    <color name="gray3">#aab2bd</color>
+    <color name="gray4">#9a9a9a</color>
+    <color name="gray5">#444444</color>
+    <color name="gray6">#454545</color>
+    <color name="tab_selector_color">#f6b853</color>
+
+    <color name="bg1">#182e38</color>
+    <color name="gradient_start">#084968</color>
+    <color name="gradient_end">#04161e</color>
+    <color name="errorTextRedColor">#d10b0b</color>
+    <color name="gray_010">#d9d9d9</color>
+    <color name="recent_search">#051d29</color>
+
+    <color name="profile_gradient_end">#051821</color>
+    <color name="zhl">#f4f4f4</color>
+    <color name="account_icon_color">#a9a9a9</color>
+    <color name="profile_background_color">#f5f5f5</color>
+    <color name="black_trans_thirty">#a9a9a9</color>
+    <color name="fb_background">#3b5998</color>
+    <color name="fb_background_pressed">#2d477e</color>
+    <color name="android_light_background">#F5F5F5</color>
+    <color name="android_light_feedback">#E5E5E5</color>
+
+    <color name="black_trans_fifty">#80000000</color>
+    <color name="sky_blue">#59beee</color>
+    <color name="gray_007">#979797</color>
+    <color name="load_gradient_start">#062742</color>
+    <color name="load_gradient_end">#084968</color>
+
+</resources>

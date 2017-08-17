@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/coordinatorlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/app_barlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar_home"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height48"
+            app:layout_scrollFlags="scroll|enterAlways"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <in.fine.artist.home.utils.views.IconView
+                    android:id="@+id/back_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/white"
+                    android:text="@string/ic_back"
+                    android:layout_alignParentLeft="true"
+                    android:paddingLeft="@dimen/size16"
+                    android:paddingRight="@dimen/size16"
+                    android:gravity="center"
+                    android:clickable="true"
+                    android:textSize="@dimen/size10"/>
+
+                <in.fine.artist.home.utils.views.IconView
+                    android:id="@+id/overflow_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/white"
+                    android:text="@string/ic_share"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/size16"
+                    android:paddingLeft="@dimen/size16"
+                    android:paddingRight="@dimen/size16"
+                    android:gravity="center"
+                    android:textSize="@dimen/size10"/>
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.Toolbar>
+
+        <RelativeLayout
+            android:id="@+id/background_image"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height150">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:foreground="@color/black_trans_thirty"/>
+
+            <!-- Title -->
+            <in.fine.artist.home.utils.views.TextViewMedium
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:layout_centerInParent="true"
+                android:padding="@dimen/size10"
+                android:gravity="center"
+                android:textSize="@dimen/size14"/>
+
+            <!-- Main call to action -->
+            <in.fine.artist.home.utils.views.TextViewMedium
+                android:id="@+id/action"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:padding="@dimen/size10"
+                android:layout_below="@id/title"
+                android:text="@string/submit"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:textSize="@dimen/size14"/>
+
+        </RelativeLayout>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@color/zhl_dark">
+
+            <in.fine.artist.home.utils.views.TextViewRegular
+                android:id="@+id/course_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/size14"
+                android:padding="@dimen/size10"
+                android:textColor="@color/black_trans_thirty"
+                android:text="@string/courses"/>
+
+            <LinearLayout
+                android:id="@+id/course_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"/>
+
+            <in.fine.artist.home.utils.views.TextViewRegular
+                android:id="@+id/creater_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/size14"
+                android:padding="@dimen/size10"
+                android:textColor="@color/black_trans_thirty"
+                android:text="@string/creators"/>
+
+            <RelativeLayout
+                android:id="@+id/creator_container"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height150">
+
+                <FrameLayout
+                    android:id="@+id/creator_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:foreground="@color/black_trans_thirty"/>
+
+                <!-- Title -->
+                <in.fine.artist.home.utils.views.TextViewMedium
+                    android:id="@+id/creator_description"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:layout_centerInParent="true"
+                    android:padding="@dimen/size10"
+                    android:gravity="center"
+                    android:textSize="@dimen/size14"/>
+            </RelativeLayout>
+
+            <in.fine.artist.home.utils.views.TextViewRegular
+                android:id="@+id/faqs_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/size14"
+                android:padding="@dimen/size10"
+                android:textColor="@color/black_trans_thirty"
+                android:text="@string/faqs"/>
+
+            <LinearLayout
+                android:id="@+id/faq_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/empty_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="gone"
+    android:background="@color/zhl_darkest">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:id="@+id/emptyTextContainer"
+        android:orientation="vertical">
+
+        <in.fine.artist.home.utils.views.IconView
+            android:id="@+id/emptyViewIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center_horizontal"
+            android:textColor="@color/white"
+            android:text="@string/ic_no_trip_history"
+            android:textSize="@dimen/height40" />
+
+        <in.fine.artist.home.utils.views.TextViewMedium
+            android:id="@+id/tv_empty_view_message"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="@dimen/height8"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:minLines="2"
+            android:text="@string/no_results_found"
+            android:textColor="@color/white"
+            android:textSize="@dimen/height18" />
+    </LinearLayout>
+
+
+    <in.fine.artist.home.utils.views.TextViewRegular
+        android:id="@+id/empty_bottom_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/height24"
+        android:minLines="2"
+        android:layout_marginLeft="@dimen/height36"
+        android:layout_marginRight="@dimen/height36"
+        android:gravity="center_horizontal"
+        android:visibility="gone"
+        android:textColor="@color/white"
+        android:textSize="@dimen/height14" />
+
+</RelativeLayout>
