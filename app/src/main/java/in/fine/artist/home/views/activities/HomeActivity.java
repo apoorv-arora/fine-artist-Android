@@ -21,6 +21,7 @@ import java.lang.ref.SoftReference;
 
 import in.fine.artist.home.R;
 import in.fine.artist.home.ZApplication;
+import in.fine.artist.home.utils.CommonLib;
 import in.fine.artist.home.utils.VPrefsReader;
 import in.fine.artist.home.utils.views.TextViewMedium;
 import in.fine.artist.home.views.fragments.MyCoursesFragment;
@@ -83,6 +84,17 @@ public class HomeActivity extends BaseActivity {
     private void setTabLayout() {
         for (int i = 0; i < tabLayout.getTabCount(); i++) {
             tabLayout.getTabAt(i).setCustomView(getTabView(i));
+        }
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        // logging out user
+        if (prefs.getPref(CommonLib.PROPERTY_USER_ID, 0) == 0) {
+            Intent intent = new Intent(this, SplashActivity.class);
+            startActivity(intent);
+            finish();
         }
     }
 

@@ -24,6 +24,30 @@
         ]
     },
     {
+        "outputFile": "/Users/apoorvarora/Documents/OProjects/Fine-Artist/fine-artist-Android/FacebookSDK/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ldpi-v4/values-ldpi-v4.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 63,
+                    "endOffset": 114
+                },
+                "from": {
+                    "file": "/Users/apoorvarora/Documents/OProjects/Fine-Artist/fine-artist-Android/FacebookSDK/res/values-ldpi/dimens.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 63,
+                        "endOffset": 114
+                    }
+                }
+            }
+        ]
+    },
+    {
         "outputFile": "/Users/apoorvarora/Documents/OProjects/shiftnow/home/FacebookSDK/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ldpi-v4/values-ldpi-v4.xml",
         "map": [
             {

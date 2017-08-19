@@ -12,16 +12,17 @@ import java.util.List;
 
 import in.fine.artist.home.R;
 import in.fine.artist.home.data.course.CourseBrief;
+import in.fine.artist.home.data.course.CourseCategory;
 
 /**
  * Created by apoorvarora on 15/07/17.
  */
 public class CourseCategoryAdapter extends BaseAdapter {
     private Context mContext;
-    private List<CourseBrief> courseBriefs;
+    private List<CourseCategory> courseBriefs;
     private LayoutInflater inflater;
 
-    public CourseCategoryAdapter(Context c, List<CourseBrief> courseBriefs) {
+    public CourseCategoryAdapter(Context c, List<CourseCategory> courseBriefs) {
         mContext = c;
         this.courseBriefs = courseBriefs;
         inflater = LayoutInflater.from(mContext);

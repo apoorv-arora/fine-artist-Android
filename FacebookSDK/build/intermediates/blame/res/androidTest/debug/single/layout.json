@@ -1,15 +1,119 @@
 [
     {
+        "merged": "/Users/apoorvarora/Documents/OProjects/Fine-Artist/fine-artist-Android/FacebookSDK/build/intermediates/res/merged/androidTest/debug/layout/com_facebook_picker_list_section_header.xml",
+        "source": "/Users/apoorvarora/Documents/OProjects/Fine-Artist/fine-artist-Android/FacebookSDK/build/intermediates/bundles/debug/res/layout/com_facebook_picker_list_section_header.xml"
+    },
+    {
         "merged": "/Users/apoorvarora/Documents/OProjects/shiftnow/home/FacebookSDK/build/intermediates/res/merged/androidTest/debug/layout/com_facebook_tooltip_bubble.xml",
         "source": "/Users/apoorvarora/Documents/OProjects/shiftnow/home/FacebookSDK/build/intermediates/bundles/debug/res/layout/com_facebook_tooltip_bubble.xml"
     },
     {
-        "merged": "/Users/apoorvarora/Documents/Zapplon/Android/FacebookSDK/build/intermediates/res/merged/androidTest/debug/layout/com_facebook_picker_checkbox.xml",
-        "source": "/Users/apoorvarora/Documents/Zapplon/Android/FacebookSDK/build/intermediates/bundles/debug/res/layout/com_facebook_picker_checkbox.xml"
+        "merged": "/Users/apoorvarora/Documents/OProjects/Fine-Artist/fine-artist-Android/FacebookSDK/build/intermediates/res/merged/androidTest/debug/layout/com_facebook_picker_search_box.xml",
+        "source": "/Users/apoorvarora/Documents/OProjects/Fine-Artist/fine-artist-Android/FacebookSDK/build/intermediates/bundles/debug/res/layout/com_facebook_picker_search_box.xml"
+    },
+    {
+        "merged": "/Users/apoorvarora/Documents/OProjects/Fine-Artist/fine-artist-Android/FacebookSDK/build/intermediates/res/merged/androidTest/debug/layout/com_facebook_friendpickerfragment.xml",
+        "source": "/Users/apoorvarora/Documents/OProjects/Fine-Artist/fine-artist-Android/FacebookSDK/build/intermediates/bundles/debug/res/layout/com_facebook_friendpickerfragment.xml"
     },
     {
         "merged": "/Users/apoorvarora/Documents/OProjects/shiftnow/home/FacebookSDK/build/intermediates/res/merged/androidTest/debug/layout/com_facebook_picker_title_bar_stub.xml",
         "source": "/Users/apoorvarora/Documents/OProjects/shiftnow/home/FacebookSDK/build/intermediates/bundles/debug/res/layout/com_facebook_picker_title_bar_stub.xml"
+    },
+    {
+        "merged": "/Users/apoorvarora/Documents/OProjects/shiftnow/shift-now-android-consumer/FacebookSDK/build/intermediates/res/merged/androidTest/debug/layout/com_facebook_picker_title_bar.xml",
+        "source": "/Users/apoorvarora/Documents/OProjects/shiftnow/shift-now-android-consumer/FacebookSDK/build/intermediates/bundles/debug/res/layout/com_facebook_picker_title_bar.xml"
+    },
+    {
+        "merged": "/Users/apoorvarora/Documents/OProjects/shiftnow/shift-now-android-consumer/FacebookSDK/build/intermediates/res/merged/androidTest/debug/layout/com_facebook_picker_list_row.xml",
+        "source": "/Users/apoorvarora/Documents/OProjects/shiftnow/shift-now-android-consumer/FacebookSDK/build/intermediates/bundles/debug/res/layout/com_facebook_picker_list_row.xml"
+    },
+    {
+        "merged": "/Users/apoorvarora/Documents/OProjects/Fine-Artist/fine-artist-Android/FacebookSDK/build/intermediates/res/merged/androidTest/debug/layout/com_facebook_picker_activity_circle_row.xml",
+        "source": "/Users/apoorvarora/Documents/OProjects/Fine-Artist/fine-artist-Android/FacebookSDK/build/intermediates/bundles/debug/res/layout/com_facebook_picker_activity_circle_row.xml"
+    },
+    {
+        "merged": "/Users/apoorvarora/Documents/OProjects/Fine-Artist/fine-artist-Android/FacebookSDK/build/intermediates/res/merged/androidTest/debug/layout/com_facebook_placepickerfragment.xml",
+        "source": "/Users/apoorvarora/Documents/OProjects/Fine-Artist/fine-artist-Android/FacebookSDK/build/intermediates/bundles/debug/res/layout/com_facebook_placepickerfragment.xml"
+    },
+    {
+        "merged": "/Users/apoorvarora/Documents/OProjects/shiftnow/home/FacebookSDK/build/intermediates/res/merged/androidTest/debug/layout/com_facebook_picker_list_row.xml",
+        "source": "/Users/apoorvarora/Documents/OProjects/shiftnow/home/FacebookSDK/build/intermediates/bundles/debug/res/layout/com_facebook_picker_list_row.xml"
+    },
+    {
+        "merged": "/Users/apoorvarora/Documents/OProjects/shiftnow/home/FacebookSDK/build/intermediates/res/merged/androidTest/debug/layout/com_facebook_usersettingsfragment.xml",
+        "source": "/Users/apoorvarora/Documents/OProjects/shiftnow/home/FacebookSDK/build/intermediates/bundles/debug/res/layout/com_facebook_usersettingsfragment.xml"
+    },
+    {
+        "merged": "/Users/apoorvarora/Documents/OProjects/Fine-Artist/fine-artist-Android/FacebookSDK/build/intermediates/res/merged/androidTest/debug/layout/com_facebook_login_activity_layout.xml",
+        "source": "/Users/apoorvarora/Documents/OProjects/Fine-Artist/fine-artist-Android/FacebookSDK/build/intermediates/bundles/debug/res/layout/com_facebook_login_activity_layout.xml"
+    },
+    {
+        "merged": "/Users/apoorvarora/Documents/OProjects/shiftnow/home/FacebookSDK/build/intermediates/res/merged/androidTest/debug/layout/com_facebook_placepickerfragment.xml",
+        "source": "/Users/apoorvarora/Documents/OProjects/shiftnow/home/FacebookSDK/build/intermediates/bundles/debug/res/layout/com_facebook_placepickerfragment.xml"
+    },
+    {
+        "merged": "/Users/apoorvarora/Documents/Zapplon/Android/FacebookSDK/build/intermediates/res/merged/androidTest/debug/layout/com_facebook_login_activity_layout.xml",
+        "source": "/Users/apoorvarora/Documents/Zapplon/Android/FacebookSDK/build/intermediates/bundles/debug/res/layout/com_facebook_login_activity_layout.xml"
+    },
+    {
+        "merged": "/Users/apoorvarora/Documents/OProjects/shiftnow/shift-now-android-consumer/FacebookSDK/build/intermediates/res/merged/androidTest/debug/layout/com_facebook_picker_search_box.xml",
+        "source": "/Users/apoorvarora/Documents/OProjects/shiftnow/shift-now-android-consumer/FacebookSDK/build/intermediates/bundles/debug/res/layout/com_facebook_picker_search_box.xml"
+    },
+    {
+        "merged": "/Users/apoorvarora/Documents/Zapplon/Android/FacebookSDK/build/intermediates/res/merged/androidTest/debug/layout/com_facebook_friendpickerfragment.xml",
+        "source": "/Users/apoorvarora/Documents/Zapplon/Android/FacebookSDK/build/intermediates/bundles/debug/res/layout/com_facebook_friendpickerfragment.xml"
+    },
+    {
+        "merged": "/Users/apoorvarora/Documents/OProjects/shiftnow/home/FacebookSDK/build/intermediates/res/merged/androidTest/debug/layout/com_facebook_picker_image.xml",
+        "source": "/Users/apoorvarora/Documents/OProjects/shiftnow/home/FacebookSDK/build/intermediates/bundles/debug/res/layout/com_facebook_picker_image.xml"
+    },
+    {
+        "merged": "/Users/apoorvarora/Documents/OProjects/Fine-Artist/fine-artist-Android/FacebookSDK/build/intermediates/res/merged/androidTest/debug/layout/com_facebook_picker_image.xml",
+        "source": "/Users/apoorvarora/Documents/OProjects/Fine-Artist/fine-artist-Android/FacebookSDK/build/intermediates/bundles/debug/res/layout/com_facebook_picker_image.xml"
+    },
+    {
+        "merged": "/Users/apoorvarora/Documents/Zapplon/Android/FacebookSDK/build/intermediates/res/merged/androidTest/debug/layout/com_facebook_picker_title_bar_stub.xml",
+        "source": "/Users/apoorvarora/Documents/Zapplon/Android/FacebookSDK/build/intermediates/bundles/debug/res/layout/com_facebook_picker_title_bar_stub.xml"
+    },
+    {
+        "merged": "/Users/apoorvarora/Documents/OProjects/shiftnow/shift-now-android-consumer/FacebookSDK/build/intermediates/res/merged/androidTest/debug/layout/com_facebook_search_bar_layout.xml",
+        "source": "/Users/apoorvarora/Documents/OProjects/shiftnow/shift-now-android-consumer/FacebookSDK/build/intermediates/bundles/debug/res/layout/com_facebook_search_bar_layout.xml"
+    },
+    {
+        "merged": "/Users/apoorvarora/Documents/OProjects/shiftnow/shift-now-android-consumer/FacebookSDK/build/intermediates/res/merged/androidTest/debug/layout/com_facebook_usersettingsfragment.xml",
+        "source": "/Users/apoorvarora/Documents/OProjects/shiftnow/shift-now-android-consumer/FacebookSDK/build/intermediates/bundles/debug/res/layout/com_facebook_usersettingsfragment.xml"
+    },
+    {
+        "merged": "/Users/apoorvarora/Documents/OProjects/shiftnow/shift-now-android-consumer/FacebookSDK/build/intermediates/res/merged/androidTest/debug/layout/com_facebook_tooltip_bubble.xml",
+        "source": "/Users/apoorvarora/Documents/OProjects/shiftnow/shift-now-android-consumer/FacebookSDK/build/intermediates/bundles/debug/res/layout/com_facebook_tooltip_bubble.xml"
+    },
+    {
+        "merged": "/Users/apoorvarora/Documents/OProjects/Fine-Artist/fine-artist-Android/FacebookSDK/build/intermediates/res/merged/androidTest/debug/layout/com_facebook_picker_checkbox.xml",
+        "source": "/Users/apoorvarora/Documents/OProjects/Fine-Artist/fine-artist-Android/FacebookSDK/build/intermediates/bundles/debug/res/layout/com_facebook_picker_checkbox.xml"
+    },
+    {
+        "merged": "/Users/apoorvarora/Documents/OProjects/Fine-Artist/fine-artist-Android/FacebookSDK/build/intermediates/res/merged/androidTest/debug/layout/com_facebook_search_bar_layout.xml",
+        "source": "/Users/apoorvarora/Documents/OProjects/Fine-Artist/fine-artist-Android/FacebookSDK/build/intermediates/bundles/debug/res/layout/com_facebook_search_bar_layout.xml"
+    },
+    {
+        "merged": "/Users/apoorvarora/Documents/OProjects/shiftnow/shift-now-android-consumer/FacebookSDK/build/intermediates/res/merged/androidTest/debug/layout/com_facebook_picker_activity_circle_row.xml",
+        "source": "/Users/apoorvarora/Documents/OProjects/shiftnow/shift-now-android-consumer/FacebookSDK/build/intermediates/bundles/debug/res/layout/com_facebook_picker_activity_circle_row.xml"
+    },
+    {
+        "merged": "/Users/apoorvarora/Documents/OProjects/Fine-Artist/fine-artist-Android/FacebookSDK/build/intermediates/res/merged/androidTest/debug/layout/com_facebook_picker_title_bar_stub.xml",
+        "source": "/Users/apoorvarora/Documents/OProjects/Fine-Artist/fine-artist-Android/FacebookSDK/build/intermediates/bundles/debug/res/layout/com_facebook_picker_title_bar_stub.xml"
+    },
+    {
+        "merged": "/Users/apoorvarora/Documents/OProjects/Fine-Artist/fine-artist-Android/FacebookSDK/build/intermediates/res/merged/androidTest/debug/layout/com_facebook_usersettingsfragment.xml",
+        "source": "/Users/apoorvarora/Documents/OProjects/Fine-Artist/fine-artist-Android/FacebookSDK/build/intermediates/bundles/debug/res/layout/com_facebook_usersettingsfragment.xml"
+    },
+    {
+        "merged": "/Users/apoorvarora/Documents/OProjects/shiftnow/home/FacebookSDK/build/intermediates/res/merged/androidTest/debug/layout/com_facebook_login_activity_layout.xml",
+        "source": "/Users/apoorvarora/Documents/OProjects/shiftnow/home/FacebookSDK/build/intermediates/bundles/debug/res/layout/com_facebook_login_activity_layout.xml"
+    },
+    {
+        "merged": "/Users/apoorvarora/Documents/Zapplon/Android/FacebookSDK/build/intermediates/res/merged/androidTest/debug/layout/com_facebook_picker_checkbox.xml",
+        "source": "/Users/apoorvarora/Documents/Zapplon/Android/FacebookSDK/build/intermediates/bundles/debug/res/layout/com_facebook_picker_checkbox.xml"
     },
     {
         "merged": "/Users/apoorvarora/Documents/Zapplon/Android/FacebookSDK/build/intermediates/res/merged/androidTest/debug/layout/com_facebook_usersettingsfragment.xml",
@@ -24,16 +128,12 @@
         "source": "/Users/apoorvarora/Documents/OProjects/shiftnow/shift-now-android-consumer/FacebookSDK/build/intermediates/bundles/debug/res/layout/com_facebook_picker_title_bar_stub.xml"
     },
     {
-        "merged": "/Users/apoorvarora/Documents/OProjects/shiftnow/shift-now-android-consumer/FacebookSDK/build/intermediates/res/merged/androidTest/debug/layout/com_facebook_picker_title_bar.xml",
-        "source": "/Users/apoorvarora/Documents/OProjects/shiftnow/shift-now-android-consumer/FacebookSDK/build/intermediates/bundles/debug/res/layout/com_facebook_picker_title_bar.xml"
-    },
-    {
         "merged": "/Users/apoorvarora/Documents/Zapplon/Android/FacebookSDK/build/intermediates/res/merged/androidTest/debug/layout/com_facebook_picker_image.xml",
         "source": "/Users/apoorvarora/Documents/Zapplon/Android/FacebookSDK/build/intermediates/bundles/debug/res/layout/com_facebook_picker_image.xml"
     },
     {
-        "merged": "/Users/apoorvarora/Documents/OProjects/shiftnow/shift-now-android-consumer/FacebookSDK/build/intermediates/res/merged/androidTest/debug/layout/com_facebook_picker_list_row.xml",
-        "source": "/Users/apoorvarora/Documents/OProjects/shiftnow/shift-now-android-consumer/FacebookSDK/build/intermediates/bundles/debug/res/layout/com_facebook_picker_list_row.xml"
+        "merged": "/Users/apoorvarora/Documents/OProjects/Fine-Artist/fine-artist-Android/FacebookSDK/build/intermediates/res/merged/androidTest/debug/layout/com_facebook_picker_title_bar.xml",
+        "source": "/Users/apoorvarora/Documents/OProjects/Fine-Artist/fine-artist-Android/FacebookSDK/build/intermediates/bundles/debug/res/layout/com_facebook_picker_title_bar.xml"
     },
     {
         "merged": "/Users/apoorvarora/Documents/Zapplon/Android/FacebookSDK/build/intermediates/res/merged/androidTest/debug/layout/com_facebook_picker_list_row.xml",
@@ -52,18 +152,6 @@
         "source": "/Users/apoorvarora/Documents/OProjects/shiftnow/shift-now-android-consumer/FacebookSDK/build/intermediates/bundles/debug/res/layout/com_facebook_placepickerfragment_list_row.xml"
     },
     {
-        "merged": "/Users/apoorvarora/Documents/OProjects/shiftnow/home/FacebookSDK/build/intermediates/res/merged/androidTest/debug/layout/com_facebook_picker_list_row.xml",
-        "source": "/Users/apoorvarora/Documents/OProjects/shiftnow/home/FacebookSDK/build/intermediates/bundles/debug/res/layout/com_facebook_picker_list_row.xml"
-    },
-    {
-        "merged": "/Users/apoorvarora/Documents/OProjects/shiftnow/home/FacebookSDK/build/intermediates/res/merged/androidTest/debug/layout/com_facebook_usersettingsfragment.xml",
-        "source": "/Users/apoorvarora/Documents/OProjects/shiftnow/home/FacebookSDK/build/intermediates/bundles/debug/res/layout/com_facebook_usersettingsfragment.xml"
-    },
-    {
-        "merged": "/Users/apoorvarora/Documents/OProjects/shiftnow/home/FacebookSDK/build/intermediates/res/merged/androidTest/debug/layout/com_facebook_placepickerfragment.xml",
-        "source": "/Users/apoorvarora/Documents/OProjects/shiftnow/home/FacebookSDK/build/intermediates/bundles/debug/res/layout/com_facebook_placepickerfragment.xml"
-    },
-    {
         "merged": "/Users/apoorvarora/Documents/OProjects/shiftnow/home/FacebookSDK/build/intermediates/res/merged/androidTest/debug/layout/com_facebook_search_bar_layout.xml",
         "source": "/Users/apoorvarora/Documents/OProjects/shiftnow/home/FacebookSDK/build/intermediates/bundles/debug/res/layout/com_facebook_search_bar_layout.xml"
     },
@@ -80,10 +168,6 @@
         "source": "/Users/apoorvarora/Documents/OProjects/shiftnow/home/FacebookSDK/build/intermediates/bundles/debug/res/layout/com_facebook_picker_search_box.xml"
     },
     {
-        "merged": "/Users/apoorvarora/Documents/Zapplon/Android/FacebookSDK/build/intermediates/res/merged/androidTest/debug/layout/com_facebook_login_activity_layout.xml",
-        "source": "/Users/apoorvarora/Documents/Zapplon/Android/FacebookSDK/build/intermediates/bundles/debug/res/layout/com_facebook_login_activity_layout.xml"
-    },
-    {
         "merged": "/Users/apoorvarora/Documents/OProjects/shiftnow/home/FacebookSDK/build/intermediates/res/merged/androidTest/debug/layout/com_facebook_picker_checkbox.xml",
         "source": "/Users/apoorvarora/Documents/OProjects/shiftnow/home/FacebookSDK/build/intermediates/bundles/debug/res/layout/com_facebook_picker_checkbox.xml"
     },
@@ -92,32 +176,28 @@
         "source": "/Users/apoorvarora/Documents/OProjects/shiftnow/shift-now-android-consumer/FacebookSDK/build/intermediates/bundles/debug/res/layout/com_facebook_picker_list_section_header.xml"
     },
     {
-        "merged": "/Users/apoorvarora/Documents/OProjects/shiftnow/shift-now-android-consumer/FacebookSDK/build/intermediates/res/merged/androidTest/debug/layout/com_facebook_picker_search_box.xml",
-        "source": "/Users/apoorvarora/Documents/OProjects/shiftnow/shift-now-android-consumer/FacebookSDK/build/intermediates/bundles/debug/res/layout/com_facebook_picker_search_box.xml"
+        "merged": "/Users/apoorvarora/Documents/OProjects/Fine-Artist/fine-artist-Android/FacebookSDK/build/intermediates/res/merged/androidTest/debug/layout/com_facebook_picker_list_row.xml",
+        "source": "/Users/apoorvarora/Documents/OProjects/Fine-Artist/fine-artist-Android/FacebookSDK/build/intermediates/bundles/debug/res/layout/com_facebook_picker_list_row.xml"
     },
     {
         "merged": "/Users/apoorvarora/Documents/OProjects/shiftnow/shift-now-android-consumer/FacebookSDK/build/intermediates/res/merged/androidTest/debug/layout/com_facebook_placepickerfragment.xml",
         "source": "/Users/apoorvarora/Documents/OProjects/shiftnow/shift-now-android-consumer/FacebookSDK/build/intermediates/bundles/debug/res/layout/com_facebook_placepickerfragment.xml"
     },
     {
-        "merged": "/Users/apoorvarora/Documents/Zapplon/Android/FacebookSDK/build/intermediates/res/merged/androidTest/debug/layout/com_facebook_friendpickerfragment.xml",
-        "source": "/Users/apoorvarora/Documents/Zapplon/Android/FacebookSDK/build/intermediates/bundles/debug/res/layout/com_facebook_friendpickerfragment.xml"
-    },
-    {
         "merged": "/Users/apoorvarora/Documents/OProjects/shiftnow/home/FacebookSDK/build/intermediates/res/merged/androidTest/debug/layout/com_facebook_placepickerfragment_list_row.xml",
         "source": "/Users/apoorvarora/Documents/OProjects/shiftnow/home/FacebookSDK/build/intermediates/bundles/debug/res/layout/com_facebook_placepickerfragment_list_row.xml"
     },
     {
+        "merged": "/Users/apoorvarora/Documents/OProjects/Fine-Artist/fine-artist-Android/FacebookSDK/build/intermediates/res/merged/androidTest/debug/layout/com_facebook_placepickerfragment_list_row.xml",
+        "source": "/Users/apoorvarora/Documents/OProjects/Fine-Artist/fine-artist-Android/FacebookSDK/build/intermediates/bundles/debug/res/layout/com_facebook_placepickerfragment_list_row.xml"
+    },
+    {
+        "merged": "/Users/apoorvarora/Documents/OProjects/Fine-Artist/fine-artist-Android/FacebookSDK/build/intermediates/res/merged/androidTest/debug/layout/com_facebook_tooltip_bubble.xml",
+        "source": "/Users/apoorvarora/Documents/OProjects/Fine-Artist/fine-artist-Android/FacebookSDK/build/intermediates/bundles/debug/res/layout/com_facebook_tooltip_bubble.xml"
+    },
+    {
         "merged": "/Users/apoorvarora/Documents/Zapplon/Android/FacebookSDK/build/intermediates/res/merged/androidTest/debug/layout/com_facebook_search_bar_layout.xml",
         "source": "/Users/apoorvarora/Documents/Zapplon/Android/FacebookSDK/build/intermediates/bundles/debug/res/layout/com_facebook_search_bar_layout.xml"
-    },
-    {
-        "merged": "/Users/apoorvarora/Documents/OProjects/shiftnow/home/FacebookSDK/build/intermediates/res/merged/androidTest/debug/layout/com_facebook_picker_image.xml",
-        "source": "/Users/apoorvarora/Documents/OProjects/shiftnow/home/FacebookSDK/build/intermediates/bundles/debug/res/layout/com_facebook_picker_image.xml"
-    },
-    {
-        "merged": "/Users/apoorvarora/Documents/Zapplon/Android/FacebookSDK/build/intermediates/res/merged/androidTest/debug/layout/com_facebook_picker_title_bar_stub.xml",
-        "source": "/Users/apoorvarora/Documents/Zapplon/Android/FacebookSDK/build/intermediates/bundles/debug/res/layout/com_facebook_picker_title_bar_stub.xml"
     },
     {
         "merged": "/Users/apoorvarora/Documents/Zapplon/Android/FacebookSDK/build/intermediates/res/merged/androidTest/debug/layout/com_facebook_picker_search_box.xml",
@@ -128,16 +208,8 @@
         "source": "/Users/apoorvarora/Documents/OProjects/shiftnow/shift-now-android-consumer/FacebookSDK/build/intermediates/bundles/debug/res/layout/com_facebook_picker_checkbox.xml"
     },
     {
-        "merged": "/Users/apoorvarora/Documents/OProjects/shiftnow/shift-now-android-consumer/FacebookSDK/build/intermediates/res/merged/androidTest/debug/layout/com_facebook_search_bar_layout.xml",
-        "source": "/Users/apoorvarora/Documents/OProjects/shiftnow/shift-now-android-consumer/FacebookSDK/build/intermediates/bundles/debug/res/layout/com_facebook_search_bar_layout.xml"
-    },
-    {
         "merged": "/Users/apoorvarora/Documents/Zapplon/Android/FacebookSDK/build/intermediates/res/merged/androidTest/debug/layout/com_facebook_tooltip_bubble.xml",
         "source": "/Users/apoorvarora/Documents/Zapplon/Android/FacebookSDK/build/intermediates/bundles/debug/res/layout/com_facebook_tooltip_bubble.xml"
-    },
-    {
-        "merged": "/Users/apoorvarora/Documents/OProjects/shiftnow/shift-now-android-consumer/FacebookSDK/build/intermediates/res/merged/androidTest/debug/layout/com_facebook_usersettingsfragment.xml",
-        "source": "/Users/apoorvarora/Documents/OProjects/shiftnow/shift-now-android-consumer/FacebookSDK/build/intermediates/bundles/debug/res/layout/com_facebook_usersettingsfragment.xml"
     },
     {
         "merged": "/Users/apoorvarora/Documents/Zapplon/Android/FacebookSDK/build/intermediates/res/merged/androidTest/debug/layout/com_facebook_picker_list_section_header.xml",
@@ -156,10 +228,6 @@
         "source": "/Users/apoorvarora/Documents/OProjects/shiftnow/home/FacebookSDK/build/intermediates/bundles/debug/res/layout/com_facebook_picker_title_bar.xml"
     },
     {
-        "merged": "/Users/apoorvarora/Documents/OProjects/shiftnow/shift-now-android-consumer/FacebookSDK/build/intermediates/res/merged/androidTest/debug/layout/com_facebook_tooltip_bubble.xml",
-        "source": "/Users/apoorvarora/Documents/OProjects/shiftnow/shift-now-android-consumer/FacebookSDK/build/intermediates/bundles/debug/res/layout/com_facebook_tooltip_bubble.xml"
-    },
-    {
         "merged": "/Users/apoorvarora/Documents/Zapplon/Android/FacebookSDK/build/intermediates/res/merged/androidTest/debug/layout/com_facebook_placepickerfragment.xml",
         "source": "/Users/apoorvarora/Documents/Zapplon/Android/FacebookSDK/build/intermediates/bundles/debug/res/layout/com_facebook_placepickerfragment.xml"
     },
@@ -170,13 +238,5 @@
     {
         "merged": "/Users/apoorvarora/Documents/OProjects/shiftnow/home/FacebookSDK/build/intermediates/res/merged/androidTest/debug/layout/com_facebook_picker_activity_circle_row.xml",
         "source": "/Users/apoorvarora/Documents/OProjects/shiftnow/home/FacebookSDK/build/intermediates/bundles/debug/res/layout/com_facebook_picker_activity_circle_row.xml"
-    },
-    {
-        "merged": "/Users/apoorvarora/Documents/OProjects/shiftnow/shift-now-android-consumer/FacebookSDK/build/intermediates/res/merged/androidTest/debug/layout/com_facebook_picker_activity_circle_row.xml",
-        "source": "/Users/apoorvarora/Documents/OProjects/shiftnow/shift-now-android-consumer/FacebookSDK/build/intermediates/bundles/debug/res/layout/com_facebook_picker_activity_circle_row.xml"
-    },
-    {
-        "merged": "/Users/apoorvarora/Documents/OProjects/shiftnow/home/FacebookSDK/build/intermediates/res/merged/androidTest/debug/layout/com_facebook_login_activity_layout.xml",
-        "source": "/Users/apoorvarora/Documents/OProjects/shiftnow/home/FacebookSDK/build/intermediates/bundles/debug/res/layout/com_facebook_login_activity_layout.xml"
     }
 ]

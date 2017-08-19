@@ -47,6 +47,9 @@ public class UploadManager {
     public static final int COURSES_RECOMMENDED = 104;
     public static final int COURSES_USER = 105;
     public static final int UPDATES = 106;
+    public static final int COURSES_CATEGORIES = 107;
+    public static final int COURSES_CATEGORY_ID = 108;
+    public static final int COURSES_SEARCH = 109;
 
     public static final int UPDATE_ADDRESS = 108;
     public static final int UPDATE_PROFILE = 111;
@@ -70,6 +73,9 @@ public class UploadManager {
     private static final String URL_COURSES_RECOMMENDED = CommonLib.SERVER_URL + "course/recommended/all";
     private static final String URL_COURSES_USER = CommonLib.SERVER_URL + "consumer/courses/mine";
     private static final String URL_UPDATES = CommonLib.SERVER_URL + "blog/updates/all";
+    private static final String URL_COURSES_CATEGORIES = CommonLib.SERVER_URL + "course/category/all";
+    private static final String URL_COURSES_CATEGORY_ID = CommonLib.SERVER_URL + "course/category/courses";
+    private static final String URL_COURSES_SEARCH = CommonLib.SERVER_URL + "course/category/search";
 
     // priorities, cause you must know to say NO; and NO means NO
     public static final Request.Priority REQUEST_PRIORITY_LOW = Request.Priority.LOW;
@@ -109,6 +115,10 @@ public class UploadManager {
         requestMap.put(UploadManager.COURSES_RECOMMENDED, new RequestInfo(URL_COURSES_RECOMMENDED, REQUEST_TYPE_POST));
         requestMap.put(UploadManager.COURSES_USER, new RequestInfo(URL_COURSES_USER, REQUEST_TYPE_POST));
         requestMap.put(UploadManager.UPDATES, new RequestInfo(URL_UPDATES, REQUEST_TYPE_POST));
+
+        requestMap.put(UploadManager.COURSES_CATEGORIES, new RequestInfo(URL_COURSES_CATEGORIES, REQUEST_TYPE_POST));
+        requestMap.put(UploadManager.COURSES_CATEGORY_ID, new RequestInfo(URL_COURSES_CATEGORY_ID, REQUEST_TYPE_POST));
+        requestMap.put(UploadManager.COURSES_SEARCH, new RequestInfo(URL_COURSES_SEARCH, REQUEST_TYPE_POST));
     }
 
     public static UploadManager getInstance() {

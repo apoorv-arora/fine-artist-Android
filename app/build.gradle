@@ -47,7 +47,7 @@ android {
 
     productFlavors {
         dev {
-            buildConfigField "String", "HOST", "\"http://192.168.0.197:8080/artist/rest/\""
+            buildConfigField "String", "HOST", "\"http://192.168.0.196:8080/artist/rest/\""
             buildConfigField "String", "GCM_SENDER_ID", "\"882970671561\""
             resValue "string", "appname", appName + defaultConfig.versionName + "-Dev"
             resValue "string", "app_key", "AIzaSyBSt4ltvPRNGFPWsX2KUFcv-KeKZGEyxII"

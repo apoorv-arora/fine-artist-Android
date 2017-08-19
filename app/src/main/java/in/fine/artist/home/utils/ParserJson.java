@@ -13,6 +13,7 @@ import in.fine.artist.home.data.AppConfig;
 import in.fine.artist.home.data.BlogUpdate;
 import in.fine.artist.home.data.User;
 import in.fine.artist.home.data.course.CourseBrief;
+import in.fine.artist.home.data.course.CourseCategory;
 import in.fine.artist.home.utils.networking.UploadManager;
 
 /**
@@ -52,6 +53,8 @@ public class ParserJson {
                 response[0] = parse_LoginResponse(responseObject);
                 break;
             case UploadManager.COURSES_USER:
+            case UploadManager.COURSES_SEARCH:
+            case UploadManager.COURSES_CATEGORY_ID:
             case UploadManager.COURSES_RECOMMENDED:
                 response[0] = parse_RecommendedCourses(responseObject);
                 break;
@@ -68,7 +71,9 @@ public class ParserJson {
             case UploadManager.PLACE_AUTOCOMPLETE_DROP:
                 response[0] = responseJson;
                 break;
-
+            case UploadManager.COURSES_CATEGORIES:
+                response[0] = parse_CourseCategories(responseObject);
+                break;
         }
         return response;
     }
@@ -87,6 +92,23 @@ public class ParserJson {
         }
 
         return response;
+    }
+
+    public static List<CourseCategory> parse_CourseCategories(JSONObject jsonResponse) throws JSONException {
+        if (jsonResponse == null)
+            return null;
+
+        List<CourseCategory> courseBriefList = new ArrayList<>();
+
+        if (jsonResponse.has("courseCategories") && jsonResponse.get("courseCategories") instanceof JSONArray) {
+            JSONArray courseArray = jsonResponse.getJSONArray("courseCategories");
+            for (int i=0; i<courseArray.length(); i++) {
+                if ( courseArray.get(i) instanceof JSONObject)
+                    courseBriefList.add(parse_CourseCategory(courseArray.getJSONObject(i)));
+            }
+        }
+
+        return courseBriefList;
     }
 
     public static List<CourseBrief> parse_RecommendedCourses(JSONObject jsonResponse) throws JSONException {
@@ -142,6 +164,24 @@ public class ParserJson {
             supplier.setImageUrl(String.valueOf(jsonResponse.get("imageUrl")));
 
         return supplier;
+    }
+
+    public static CourseCategory parse_CourseCategory(JSONObject jsonResponse) throws JSONException {
+        if (jsonResponse == null)
+            return null;
+
+        CourseCategory courseBrief = new CourseCategory();
+
+        if (jsonResponse.has("courseCategoryId") && jsonResponse.get("courseCategoryId") instanceof Integer)
+            courseBrief.setCategoryId(jsonResponse.getInt("courseCategoryId"));
+
+        if (jsonResponse.has("categoryTitle"))
+            courseBrief.setCategoryTitle(String.valueOf(jsonResponse.get("categoryTitle")));
+
+        if (jsonResponse.has("categoryIconUrl"))
+            courseBrief.setCategoryIconUrl(String.valueOf(jsonResponse.get("categoryIconUrl")));
+
+        return courseBrief;
     }
 
     public static CourseBrief parse_CourseBrief(JSONObject jsonResponse) throws JSONException {

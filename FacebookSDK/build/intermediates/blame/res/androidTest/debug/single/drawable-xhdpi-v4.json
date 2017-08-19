@@ -12,8 +12,20 @@
         "source": "/Users/apoorvarora/Documents/Zapplon/Android/FacebookSDK/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/com_facebook_logo.png"
     },
     {
+        "merged": "/Users/apoorvarora/Documents/OProjects/Fine-Artist/fine-artist-Android/FacebookSDK/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/com_facebook_tooltip_black_bottomnub.png",
+        "source": "/Users/apoorvarora/Documents/OProjects/Fine-Artist/fine-artist-Android/FacebookSDK/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/com_facebook_tooltip_black_bottomnub.png"
+    },
+    {
+        "merged": "/Users/apoorvarora/Documents/OProjects/Fine-Artist/fine-artist-Android/FacebookSDK/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/com_facebook_button_like_icon_selected.png",
+        "source": "/Users/apoorvarora/Documents/OProjects/Fine-Artist/fine-artist-Android/FacebookSDK/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/com_facebook_button_like_icon_selected.png"
+    },
+    {
         "merged": "/Users/apoorvarora/Documents/Zapplon/Android/FacebookSDK/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/com_facebook_button_blue_pressed.9.png",
         "source": "/Users/apoorvarora/Documents/Zapplon/Android/FacebookSDK/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/com_facebook_button_blue_pressed.9.png"
+    },
+    {
+        "merged": "/Users/apoorvarora/Documents/OProjects/Fine-Artist/fine-artist-Android/FacebookSDK/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/com_facebook_tooltip_black_topnub.png",
+        "source": "/Users/apoorvarora/Documents/OProjects/Fine-Artist/fine-artist-Android/FacebookSDK/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/com_facebook_tooltip_black_topnub.png"
     },
     {
         "merged": "/Users/apoorvarora/Documents/Zapplon/Android/FacebookSDK/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/com_facebook_button_like_pressed.png",
@@ -32,8 +44,16 @@
         "source": "/Users/apoorvarora/Documents/OProjects/shiftnow/shift-now-android-consumer/FacebookSDK/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/com_facebook_tooltip_blue_bottomnub.png"
     },
     {
+        "merged": "/Users/apoorvarora/Documents/OProjects/Fine-Artist/fine-artist-Android/FacebookSDK/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/com_facebook_button_like_icon.png",
+        "source": "/Users/apoorvarora/Documents/OProjects/Fine-Artist/fine-artist-Android/FacebookSDK/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/com_facebook_button_like_icon.png"
+    },
+    {
         "merged": "/Users/apoorvarora/Documents/OProjects/shiftnow/shift-now-android-consumer/FacebookSDK/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/com_facebook_tooltip_blue_background.9.png",
         "source": "/Users/apoorvarora/Documents/OProjects/shiftnow/shift-now-android-consumer/FacebookSDK/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/com_facebook_tooltip_blue_background.9.png"
+    },
+    {
+        "merged": "/Users/apoorvarora/Documents/OProjects/Fine-Artist/fine-artist-Android/FacebookSDK/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/com_facebook_button_grey_focused.9.png",
+        "source": "/Users/apoorvarora/Documents/OProjects/Fine-Artist/fine-artist-Android/FacebookSDK/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/com_facebook_button_grey_focused.9.png"
     },
     {
         "merged": "/Users/apoorvarora/Documents/Zapplon/Android/FacebookSDK/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/com_facebook_button_blue_focused.9.png",
@@ -48,6 +68,10 @@
         "source": "/Users/apoorvarora/Documents/OProjects/shiftnow/shift-now-android-consumer/FacebookSDK/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/com_facebook_button_like_pressed.png"
     },
     {
+        "merged": "/Users/apoorvarora/Documents/OProjects/Fine-Artist/fine-artist-Android/FacebookSDK/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/com_facebook_button_like_pressed.png",
+        "source": "/Users/apoorvarora/Documents/OProjects/Fine-Artist/fine-artist-Android/FacebookSDK/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/com_facebook_button_like_pressed.png"
+    },
+    {
         "merged": "/Users/apoorvarora/Documents/Zapplon/Android/FacebookSDK/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/com_facebook_close.png",
         "source": "/Users/apoorvarora/Documents/Zapplon/Android/FacebookSDK/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/com_facebook_close.png"
     },
@@ -60,16 +84,32 @@
         "source": "/Users/apoorvarora/Documents/OProjects/shiftnow/home/FacebookSDK/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/com_facebook_button_like_icon.png"
     },
     {
+        "merged": "/Users/apoorvarora/Documents/OProjects/Fine-Artist/fine-artist-Android/FacebookSDK/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/com_facebook_logo.png",
+        "source": "/Users/apoorvarora/Documents/OProjects/Fine-Artist/fine-artist-Android/FacebookSDK/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/com_facebook_logo.png"
+    },
+    {
         "merged": "/Users/apoorvarora/Documents/Zapplon/Android/FacebookSDK/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/com_facebook_tooltip_black_xout.png",
         "source": "/Users/apoorvarora/Documents/Zapplon/Android/FacebookSDK/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/com_facebook_tooltip_black_xout.png"
+    },
+    {
+        "merged": "/Users/apoorvarora/Documents/OProjects/Fine-Artist/fine-artist-Android/FacebookSDK/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/com_facebook_tooltip_blue_topnub.png",
+        "source": "/Users/apoorvarora/Documents/OProjects/Fine-Artist/fine-artist-Android/FacebookSDK/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/com_facebook_tooltip_blue_topnub.png"
     },
     {
         "merged": "/Users/apoorvarora/Documents/OProjects/shiftnow/home/FacebookSDK/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/com_facebook_tooltip_blue_bottomnub.png",
         "source": "/Users/apoorvarora/Documents/OProjects/shiftnow/home/FacebookSDK/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/com_facebook_tooltip_blue_bottomnub.png"
     },
     {
+        "merged": "/Users/apoorvarora/Documents/OProjects/Fine-Artist/fine-artist-Android/FacebookSDK/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/com_facebook_tooltip_blue_bottomnub.png",
+        "source": "/Users/apoorvarora/Documents/OProjects/Fine-Artist/fine-artist-Android/FacebookSDK/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/com_facebook_tooltip_blue_bottomnub.png"
+    },
+    {
         "merged": "/Users/apoorvarora/Documents/OProjects/shiftnow/shift-now-android-consumer/FacebookSDK/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/com_facebook_inverse_icon.png",
         "source": "/Users/apoorvarora/Documents/OProjects/shiftnow/shift-now-android-consumer/FacebookSDK/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/com_facebook_inverse_icon.png"
+    },
+    {
+        "merged": "/Users/apoorvarora/Documents/OProjects/Fine-Artist/fine-artist-Android/FacebookSDK/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/com_facebook_tooltip_black_xout.png",
+        "source": "/Users/apoorvarora/Documents/OProjects/Fine-Artist/fine-artist-Android/FacebookSDK/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/com_facebook_tooltip_black_xout.png"
     },
     {
         "merged": "/Users/apoorvarora/Documents/OProjects/shiftnow/shift-now-android-consumer/FacebookSDK/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/com_facebook_button_grey_focused.9.png",
@@ -82,6 +122,10 @@
     {
         "merged": "/Users/apoorvarora/Documents/OProjects/shiftnow/home/FacebookSDK/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/com_facebook_button_like_pressed.png",
         "source": "/Users/apoorvarora/Documents/OProjects/shiftnow/home/FacebookSDK/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/com_facebook_button_like_pressed.png"
+    },
+    {
+        "merged": "/Users/apoorvarora/Documents/OProjects/Fine-Artist/fine-artist-Android/FacebookSDK/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/com_facebook_button_like_background.png",
+        "source": "/Users/apoorvarora/Documents/OProjects/Fine-Artist/fine-artist-Android/FacebookSDK/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/com_facebook_button_like_background.png"
     },
     {
         "merged": "/Users/apoorvarora/Documents/Zapplon/Android/FacebookSDK/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/com_facebook_inverse_icon.png",
@@ -108,8 +152,20 @@
         "source": "/Users/apoorvarora/Documents/OProjects/shiftnow/shift-now-android-consumer/FacebookSDK/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/com_facebook_tooltip_blue_topnub.png"
     },
     {
+        "merged": "/Users/apoorvarora/Documents/OProjects/Fine-Artist/fine-artist-Android/FacebookSDK/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/com_facebook_button_blue_pressed.9.png",
+        "source": "/Users/apoorvarora/Documents/OProjects/Fine-Artist/fine-artist-Android/FacebookSDK/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/com_facebook_button_blue_pressed.9.png"
+    },
+    {
         "merged": "/Users/apoorvarora/Documents/OProjects/shiftnow/home/FacebookSDK/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/com_facebook_button_like_background.png",
         "source": "/Users/apoorvarora/Documents/OProjects/shiftnow/home/FacebookSDK/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/com_facebook_button_like_background.png"
+    },
+    {
+        "merged": "/Users/apoorvarora/Documents/OProjects/Fine-Artist/fine-artist-Android/FacebookSDK/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/com_facebook_close.png",
+        "source": "/Users/apoorvarora/Documents/OProjects/Fine-Artist/fine-artist-Android/FacebookSDK/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/com_facebook_close.png"
+    },
+    {
+        "merged": "/Users/apoorvarora/Documents/OProjects/Fine-Artist/fine-artist-Android/FacebookSDK/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/com_facebook_button_blue_normal.9.png",
+        "source": "/Users/apoorvarora/Documents/OProjects/Fine-Artist/fine-artist-Android/FacebookSDK/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/com_facebook_button_blue_normal.9.png"
     },
     {
         "merged": "/Users/apoorvarora/Documents/OProjects/shiftnow/home/FacebookSDK/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/com_facebook_tooltip_blue_topnub.png",
@@ -136,6 +192,10 @@
         "source": "/Users/apoorvarora/Documents/OProjects/shiftnow/shift-now-android-consumer/FacebookSDK/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/com_facebook_tooltip_black_xout.png"
     },
     {
+        "merged": "/Users/apoorvarora/Documents/OProjects/Fine-Artist/fine-artist-Android/FacebookSDK/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/com_facebook_inverse_icon.png",
+        "source": "/Users/apoorvarora/Documents/OProjects/Fine-Artist/fine-artist-Android/FacebookSDK/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/com_facebook_inverse_icon.png"
+    },
+    {
         "merged": "/Users/apoorvarora/Documents/OProjects/shiftnow/home/FacebookSDK/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/com_facebook_tooltip_blue_xout.png",
         "source": "/Users/apoorvarora/Documents/OProjects/shiftnow/home/FacebookSDK/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/com_facebook_tooltip_blue_xout.png"
     },
@@ -152,12 +212,24 @@
         "source": "/Users/apoorvarora/Documents/OProjects/shiftnow/shift-now-android-consumer/FacebookSDK/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/com_facebook_picker_magnifier.png"
     },
     {
+        "merged": "/Users/apoorvarora/Documents/OProjects/Fine-Artist/fine-artist-Android/FacebookSDK/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/com_facebook_picker_magnifier.png",
+        "source": "/Users/apoorvarora/Documents/OProjects/Fine-Artist/fine-artist-Android/FacebookSDK/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/com_facebook_picker_magnifier.png"
+    },
+    {
         "merged": "/Users/apoorvarora/Documents/OProjects/shiftnow/home/FacebookSDK/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/com_facebook_picker_magnifier.png",
         "source": "/Users/apoorvarora/Documents/OProjects/shiftnow/home/FacebookSDK/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/com_facebook_picker_magnifier.png"
     },
     {
         "merged": "/Users/apoorvarora/Documents/Zapplon/Android/FacebookSDK/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/com_facebook_tooltip_blue_bottomnub.png",
         "source": "/Users/apoorvarora/Documents/Zapplon/Android/FacebookSDK/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/com_facebook_tooltip_blue_bottomnub.png"
+    },
+    {
+        "merged": "/Users/apoorvarora/Documents/OProjects/Fine-Artist/fine-artist-Android/FacebookSDK/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/com_facebook_button_grey_pressed.9.png",
+        "source": "/Users/apoorvarora/Documents/OProjects/Fine-Artist/fine-artist-Android/FacebookSDK/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/com_facebook_button_grey_pressed.9.png"
+    },
+    {
+        "merged": "/Users/apoorvarora/Documents/OProjects/Fine-Artist/fine-artist-Android/FacebookSDK/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/com_facebook_tooltip_black_background.9.png",
+        "source": "/Users/apoorvarora/Documents/OProjects/Fine-Artist/fine-artist-Android/FacebookSDK/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/com_facebook_tooltip_black_background.9.png"
     },
     {
         "merged": "/Users/apoorvarora/Documents/Zapplon/Android/FacebookSDK/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/com_facebook_tooltip_black_background.9.png",
@@ -176,6 +248,10 @@
         "source": "/Users/apoorvarora/Documents/Zapplon/Android/FacebookSDK/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/com_facebook_button_like_background.png"
     },
     {
+        "merged": "/Users/apoorvarora/Documents/OProjects/Fine-Artist/fine-artist-Android/FacebookSDK/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/com_facebook_tooltip_blue_xout.png",
+        "source": "/Users/apoorvarora/Documents/OProjects/Fine-Artist/fine-artist-Android/FacebookSDK/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/com_facebook_tooltip_blue_xout.png"
+    },
+    {
         "merged": "/Users/apoorvarora/Documents/OProjects/shiftnow/shift-now-android-consumer/FacebookSDK/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/com_facebook_tooltip_black_background.9.png",
         "source": "/Users/apoorvarora/Documents/OProjects/shiftnow/shift-now-android-consumer/FacebookSDK/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/com_facebook_tooltip_black_background.9.png"
     },
@@ -190,6 +266,10 @@
     {
         "merged": "/Users/apoorvarora/Documents/OProjects/shiftnow/home/FacebookSDK/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/com_facebook_button_like_icon_selected.png",
         "source": "/Users/apoorvarora/Documents/OProjects/shiftnow/home/FacebookSDK/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/com_facebook_button_like_icon_selected.png"
+    },
+    {
+        "merged": "/Users/apoorvarora/Documents/OProjects/Fine-Artist/fine-artist-Android/FacebookSDK/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/com_facebook_button_grey_normal.9.png",
+        "source": "/Users/apoorvarora/Documents/OProjects/Fine-Artist/fine-artist-Android/FacebookSDK/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/com_facebook_button_grey_normal.9.png"
     },
     {
         "merged": "/Users/apoorvarora/Documents/Zapplon/Android/FacebookSDK/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/com_facebook_tooltip_blue_topnub.png",
@@ -248,6 +328,10 @@
         "source": "/Users/apoorvarora/Documents/Zapplon/Android/FacebookSDK/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/com_facebook_button_like_icon_selected.png"
     },
     {
+        "merged": "/Users/apoorvarora/Documents/OProjects/Fine-Artist/fine-artist-Android/FacebookSDK/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/com_facebook_button_blue_focused.9.png",
+        "source": "/Users/apoorvarora/Documents/OProjects/Fine-Artist/fine-artist-Android/FacebookSDK/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/com_facebook_button_blue_focused.9.png"
+    },
+    {
         "merged": "/Users/apoorvarora/Documents/Zapplon/Android/FacebookSDK/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/com_facebook_button_grey_normal.9.png",
         "source": "/Users/apoorvarora/Documents/Zapplon/Android/FacebookSDK/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/com_facebook_button_grey_normal.9.png"
     },
@@ -274,5 +358,13 @@
     {
         "merged": "/Users/apoorvarora/Documents/OProjects/shiftnow/shift-now-android-consumer/FacebookSDK/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/com_facebook_tooltip_black_topnub.png",
         "source": "/Users/apoorvarora/Documents/OProjects/shiftnow/shift-now-android-consumer/FacebookSDK/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/com_facebook_tooltip_black_topnub.png"
+    },
+    {
+        "merged": "/Users/apoorvarora/Documents/OProjects/Fine-Artist/fine-artist-Android/FacebookSDK/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/com_facebook_button_like_background_selected.png",
+        "source": "/Users/apoorvarora/Documents/OProjects/Fine-Artist/fine-artist-Android/FacebookSDK/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/com_facebook_button_like_background_selected.png"
+    },
+    {
+        "merged": "/Users/apoorvarora/Documents/OProjects/Fine-Artist/fine-artist-Android/FacebookSDK/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/com_facebook_tooltip_blue_background.9.png",
+        "source": "/Users/apoorvarora/Documents/OProjects/Fine-Artist/fine-artist-Android/FacebookSDK/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/com_facebook_tooltip_blue_background.9.png"
     }
 ]

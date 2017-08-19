@@ -8,6 +8,10 @@
         "source": "/Users/apoorvarora/Documents/OProjects/shiftnow/home/FacebookSDK/build/intermediates/bundles/debug/res/drawable-xxhdpi-v4/com_facebook_button_like_icon.png"
     },
     {
+        "merged": "/Users/apoorvarora/Documents/OProjects/Fine-Artist/fine-artist-Android/FacebookSDK/build/intermediates/res/merged/androidTest/debug/drawable-xxhdpi-v4/com_facebook_button_like_icon.png",
+        "source": "/Users/apoorvarora/Documents/OProjects/Fine-Artist/fine-artist-Android/FacebookSDK/build/intermediates/bundles/debug/res/drawable-xxhdpi-v4/com_facebook_button_like_icon.png"
+    },
+    {
         "merged": "/Users/apoorvarora/Documents/OProjects/shiftnow/shift-now-android-consumer/FacebookSDK/build/intermediates/res/merged/androidTest/debug/drawable-xxhdpi-v4/com_facebook_button_like_icon.png",
         "source": "/Users/apoorvarora/Documents/OProjects/shiftnow/shift-now-android-consumer/FacebookSDK/build/intermediates/bundles/debug/res/drawable-xxhdpi-v4/com_facebook_button_like_icon.png"
     },
@@ -28,6 +32,10 @@
         "source": "/Users/apoorvarora/Documents/OProjects/shiftnow/home/FacebookSDK/build/intermediates/bundles/debug/res/drawable-xxhdpi-v4/com_facebook_button_like_icon_selected.png"
     },
     {
+        "merged": "/Users/apoorvarora/Documents/OProjects/Fine-Artist/fine-artist-Android/FacebookSDK/build/intermediates/res/merged/androidTest/debug/drawable-xxhdpi-v4/com_facebook_button_like_background_selected.png",
+        "source": "/Users/apoorvarora/Documents/OProjects/Fine-Artist/fine-artist-Android/FacebookSDK/build/intermediates/bundles/debug/res/drawable-xxhdpi-v4/com_facebook_button_like_background_selected.png"
+    },
+    {
         "merged": "/Users/apoorvarora/Documents/Zapplon/Android/FacebookSDK/build/intermediates/res/merged/androidTest/debug/drawable-xxhdpi-v4/com_facebook_button_like_icon.png",
         "source": "/Users/apoorvarora/Documents/Zapplon/Android/FacebookSDK/build/intermediates/bundles/debug/res/drawable-xxhdpi-v4/com_facebook_button_like_icon.png"
     },
@@ -38,6 +46,10 @@
     {
         "merged": "/Users/apoorvarora/Documents/OProjects/shiftnow/shift-now-android-consumer/FacebookSDK/build/intermediates/res/merged/androidTest/debug/drawable-xxhdpi-v4/com_facebook_button_like_background.png",
         "source": "/Users/apoorvarora/Documents/OProjects/shiftnow/shift-now-android-consumer/FacebookSDK/build/intermediates/bundles/debug/res/drawable-xxhdpi-v4/com_facebook_button_like_background.png"
+    },
+    {
+        "merged": "/Users/apoorvarora/Documents/OProjects/Fine-Artist/fine-artist-Android/FacebookSDK/build/intermediates/res/merged/androidTest/debug/drawable-xxhdpi-v4/com_facebook_button_like_background.png",
+        "source": "/Users/apoorvarora/Documents/OProjects/Fine-Artist/fine-artist-Android/FacebookSDK/build/intermediates/bundles/debug/res/drawable-xxhdpi-v4/com_facebook_button_like_background.png"
     },
     {
         "merged": "/Users/apoorvarora/Documents/OProjects/shiftnow/shift-now-android-consumer/FacebookSDK/build/intermediates/res/merged/androidTest/debug/drawable-xxhdpi-v4/com_facebook_button_like_icon_selected.png",
@@ -58,5 +70,13 @@
     {
         "merged": "/Users/apoorvarora/Documents/OProjects/shiftnow/shift-now-android-consumer/FacebookSDK/build/intermediates/res/merged/androidTest/debug/drawable-xxhdpi-v4/com_facebook_button_like_pressed.png",
         "source": "/Users/apoorvarora/Documents/OProjects/shiftnow/shift-now-android-consumer/FacebookSDK/build/intermediates/bundles/debug/res/drawable-xxhdpi-v4/com_facebook_button_like_pressed.png"
+    },
+    {
+        "merged": "/Users/apoorvarora/Documents/OProjects/Fine-Artist/fine-artist-Android/FacebookSDK/build/intermediates/res/merged/androidTest/debug/drawable-xxhdpi-v4/com_facebook_button_like_icon_selected.png",
+        "source": "/Users/apoorvarora/Documents/OProjects/Fine-Artist/fine-artist-Android/FacebookSDK/build/intermediates/bundles/debug/res/drawable-xxhdpi-v4/com_facebook_button_like_icon_selected.png"
+    },
+    {
+        "merged": "/Users/apoorvarora/Documents/OProjects/Fine-Artist/fine-artist-Android/FacebookSDK/build/intermediates/res/merged/androidTest/debug/drawable-xxhdpi-v4/com_facebook_button_like_pressed.png",
+        "source": "/Users/apoorvarora/Documents/OProjects/Fine-Artist/fine-artist-Android/FacebookSDK/build/intermediates/bundles/debug/res/drawable-xxhdpi-v4/com_facebook_button_like_pressed.png"
     }
 ]

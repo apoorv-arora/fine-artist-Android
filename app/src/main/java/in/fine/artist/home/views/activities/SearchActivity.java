@@ -9,20 +9,25 @@ import android.widget.AdapterView;
 import android.widget.GridView;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 
 import in.fine.artist.home.R;
 import in.fine.artist.home.ZApplication;
 import in.fine.artist.home.adapters.CourseCategoryAdapter;
+import in.fine.artist.home.adapters.RecommendedAdapter;
 import in.fine.artist.home.data.course.CourseBrief;
+import in.fine.artist.home.data.course.CourseCategory;
 import in.fine.artist.home.utils.CommonLib;
 import in.fine.artist.home.utils.ImageLoader;
 import in.fine.artist.home.utils.VPrefsReader;
+import in.fine.artist.home.utils.networking.UploadManager;
+import in.fine.artist.home.utils.networking.UploadManagerCallback;
 
 /**
  * Created by apoorvarora on 06/07/17.
  */
-public class SearchActivity extends BaseActivity {
+public class SearchActivity extends BaseActivity implements UploadManagerCallback {
 
     private boolean destroyed = false;
     private Activity mActivity;
@@ -32,11 +37,16 @@ public class SearchActivity extends BaseActivity {
     private int height;
     private ImageLoader imageLoader;
     private CourseCategoryAdapter mAdapter;
+    private GridView gridview;
+    private List<CourseCategory> categories;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_search);
+
+        UploadManager.getInstance().addCallback(this
+                , UploadManager.COURSES_CATEGORIES);
 
         destroyed = false;
         mActivity = this;
@@ -46,34 +56,9 @@ public class SearchActivity extends BaseActivity {
         width = CommonLib.getWindowHeightWidth(mActivity)[1];
         imageLoader = new ImageLoader(this, vapp);
 
-        GridView gridview = (GridView) findViewById(R.id.gridview);
-        List<CourseBrief> briefs = new ArrayList<>();
-        CourseBrief brief1 = new CourseBrief();
-        brief1.setShortDescription("hey how are you");
-        brief1.setTitle("hi");
-        briefs.add(brief1);
-
-        CourseBrief brief2 = new CourseBrief();
-        brief2.setShortDescription("hey2 how are you");
-        brief2.setTitle("hi2");
-        briefs.add(brief2);
-
-        CourseBrief brief3 = new CourseBrief();
-        brief3.setShortDescription("hey2 how are you");
-        brief3.setTitle("brief3");
-        briefs.add(brief3);
-
-        CourseBrief brief4 = new CourseBrief();
-        brief4.setShortDescription("hey2 how are you");
-        brief4.setTitle("brief4");
-        briefs.add(brief4);
-
-        CourseBrief brief5 = new CourseBrief();
-        brief5.setShortDescription("hey2 how are you");
-        brief5.setTitle("brief5");
-        briefs.add(brief5);
-
-        mAdapter = new CourseCategoryAdapter(this, briefs);
+        categories = new ArrayList<>();
+        gridview = (GridView) findViewById(R.id.gridview);
+        mAdapter = new CourseCategoryAdapter(this, categories);
         gridview.setAdapter(mAdapter);
 
         gridview.setOnItemClickListener(new AdapterView.OnItemClickListener() {
@@ -83,6 +68,11 @@ public class SearchActivity extends BaseActivity {
         });
 
         setListeners();
+        refreshView();
+    }
+
+    private void refreshView() {
+        UploadManager.getInstance().apiCall(new HashMap<String, String>(), UploadManager.COURSES_CATEGORIES, null, null);
     }
 
     private void setListeners() {
@@ -108,6 +98,8 @@ public class SearchActivity extends BaseActivity {
     @Override
     public void onDestroy() {
         destroyed = true;
+        UploadManager.getInstance().removeCallback(this
+                , UploadManager.COURSES_CATEGORIES);
         super.onDestroy();
     }
 
@@ -125,5 +117,25 @@ public class SearchActivity extends BaseActivity {
                 return true;
         }
         return super.onOptionsItemSelected(item);
+    }
+
+    @Override
+    public void uploadStarted(int requestType, Object data, Object requestData) {
+
+    }
+
+    @Override
+    public void uploadFinished(int requestType, Object data, boolean status, String errorMessage, Object requestData) {
+        if (requestType == UploadManager.COURSES_RECOMMENDED) {
+            if (!destroyed) {
+                findViewById(R.id.progress_view).setVisibility(View.GONE);
+                if (data != null && data instanceof List<?> && ((List<?>)data).size() > 0) {
+                    categories = (ArrayList<CourseCategory>) data;
+                    mAdapter = new CourseCategoryAdapter(mActivity, categories);
+                    gridview.setAdapter(mAdapter);
+                } else {
+                }
+            }
+        }
     }
 }
